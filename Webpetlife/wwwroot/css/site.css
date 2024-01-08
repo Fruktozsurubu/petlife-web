@@ -1,0 +1,112 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/css/2BIa1d6erWSaC8YES4gEKw-removebg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aqua;
+    /* Diðer stillendirme özelliklerini buraya ekleyebilirsiniz */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: orange;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    /* Ýstenilen diðer stiller */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    button[type="submit"]:hover {
+        background-color: black;
+    }
+/* Diðer stillendirme özelliklerini buraya ekleyebilirsiniz */
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+    a:hover {
+        color: #0056b3;
+    }
+
+.button-container {
+    margin-top: 10px;
+}
+
+.register-button,
+.login-button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register-button {
+    background-color: #28a745;
+    color: white;
+}
+
+    .register-button:hover {
+        background-color: #218838;
+    }
+
+.login-button {
+    background-color: #28a745;
+    color: white;
+}
+
+    .login-button:hover {
+        background-color: #218838;
+    }
+
